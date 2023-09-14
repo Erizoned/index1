@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <style> 
+        .a{ 
+            background: #30d5c8; 
+        } 
+        .b{ 
+            background: #ffffe0; 
+        } 
+        .c{ 
+            background: #ff0000; 
+        } 
+        .z{ 
+            background: #0000ff; 
+        } 
+        .x{ 
+            background: #00FF00; 
+        } 
+        .n{ 
+            background: #ffff00; 
+        } 
+        table, td{
+            border-collapse:collapse;
+            border-color:black;
+        }
+    </style> 
+</head> 
+<body> 
+    <center> 
+    <table style="width:500px; height: 500px; margin: 10px;" border="1"> 
+        <tr> 
+            <td colspan="9"></td> 
+        </tr> 
+        <tr> 
+            <td rowspan="6"></td> 
+            <td colspan="7"></td> 
+            <td rowspan="7"></td> 
+        </tr> 
+        <tr> 
+            <td rowspan="4"></td> 
+            <td colspan="4"></td> 
+            <td rowspan="5"></td> 
+        </tr> 
+        <tr> 
+            <td rowspan="2"></td> 
+            <td colspan="2"></td> 
+            <td rowspan="3"></td> 
+        </tr> 
+        <tr> 
+            <td></td> 
+            <td></td> 
+        </tr> 
+        <tr> 
+            <td colspan="3"></td> 
+        </tr> 
+        <tr> 
+            <td colspan="5"></td> 
+        </tr> 
+        <tr> 
+            <td colspan="7"></td> 
+        </tr> 
+    </table> 
+    </center> 
+    <center> 
+        <table style="width:500px; height: 500px; margin: 10px;" border="1"> 
+            <tr> 
+                <td colspan="9" class="a"></td> 
+            </tr> 
+            <tr> 
+                <td rowspan="6" class="b"></td> 
+                <td colspan="7" class="a"></td> 
+                <td rowspan="6" class="b"></td> 
+            </tr> 
+            <tr> 
+                <td rowspan="4" class="b"></td> 
+                <td colspan="4" class="a"></td> 
+                <td rowspan="4" class="b"></td> 
+            </tr> 
+            <tr> 
+                <td rowspan="2" class="b"></td> 
+                <td class="c"></td> 
+                <td class="z"></td> 
+                <td rowspan="2" class="b"></td> 
+            </tr> 
+            <tr> 
+                <td class="x"></td> 
+                <td class="n"></td> 
+            </tr> 
+            <tr> 
+                <td colspan="4" class="a"></td> 
+            </tr> 
+            <tr> 
+                <td colspan="6" class="a"></td> 
+            </tr> 
+            <tr> 
+                <td colspan="9" class="a"></td> 
+            </tr> 
+        </table> 
+    </center> 
+    <ol> 
+        <li>List Item 1</li> 
+        <ol type="A"> 
+            <li>Nested item 1.1</li> 
+            <li>Nested item 1.2</li> 
+        </ol> 
+        <li>List Item 2</li> 
+        <ol type="i"> 
+            <li>Nestef item 2.1</li> 
+            <li>Nestef item 2.2</li> 
+            <ul> 
+                <li style="list-style-type: square;">Nested item 2.2.1</li> 
+                <li style="list-style-type: square;">Nested item 2.2.2</li> 
+                <ul> 
+                    <li style="list-style-type: circle;">Nested item 2.2.2.1</li> 
+                    <li style="list-style-type: circle;">Nested item 2.2.2.2</li> 
+                </ul> 
+                <li>Nested item 2.2.3</li> 
+            </ul> 
+            <li>Nested item 2.3</li> 
+        </ol> 
+        <li>List item 3</li> 
+        <ul> 
+            <li style="list-style-type: disc">Item 1</li> 
+            <li style="list-style-type: disc">Item 2</li> 
+            <li style="list-style-type: disc">Item 3</li> 
+        </ul> 
+    </ol> 
+    <dl> 
+        <dt>COMP 376</dt> 
+          <dd>Introduction to Game Programming</dd> 
+        <dt>Soen287</dt> 
+          <dd>Web programming</dd> 
+          <dd></dd> 
+        <dt>This is a test for Assignment 1.</dt> 
+      </dl> 
+</body> 
+</html>
